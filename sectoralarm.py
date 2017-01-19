@@ -56,10 +56,10 @@ import requests
 import sys
 
 
-LOGINPAGE = 'https://minasidor.sectoralarm.se/Users/Account/LogOn'
-VALIDATEPAGE = 'https://minasidor.sectoralarm.se/MyPages.LogOn/Account/ValidateUser'
-STATUSPAGE = 'https://minasidor.sectoralarm.se/MyPages/Overview/Panel/'
-LOGPAGE = 'https://minasidor.sectoralarm.se/MyPages/Panel/AlarmSystem/'
+LOGINPAGE = 'https://minside.sectoralarm.no/Users/Account/LogOn'
+VALIDATEPAGE = 'https://minside.sectoralarm.no/MyPages.LogOn/Account/ValidateUser'
+STATUSPAGE = 'https://minside.sectoralarm.no/MyPages/Overview/Panel/'
+LOGPAGE = 'https://minside.sectoralarm.no/MyPages/Panel/AlarmSystem/'
 COOKIEFILE = os.path.join(os.path.dirname(os.path.realpath(__file__)), 'data', 'cookies.jar')
 
 DATENORMRE = re.compile(r'(\d+)/(\d+) (\d+):(\d+)')
