@@ -103,9 +103,9 @@ def fix_date(date_string):
                 the_date.hour,
                 the_date.minute)
     elif namematches:
-        if namematches.group(1) == u'Idag':
+        if namematches.group(1) == u'I dag':
             the_date = datetime.datetime(today.year, today.month, today.day)
-        elif namematches.group(1) == u'Igår':
+        elif namematches.group(1) == u'I går':
             the_date = (datetime.datetime(today.year,
                         today.month, today.day) - datetime.timedelta(1))
         else:
